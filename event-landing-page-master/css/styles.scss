@@ -6,7 +6,7 @@
     width: 100%;
     .hero-block {
         width: 100%;
-        height: 100vh;
+        height: 75vh;
         background-image: radial-gradient(86.94% 263.61% at 96.08% 15.9%, rgba(0, 25, 88, 0) 0%, #000000 100%), url('https://windeurope.org/summit2018/wp-content/uploads/gws-summit-2018-banner-plenary.jpg');
         background-repeat: no-repeat;
         background-size: cover;
@@ -28,60 +28,15 @@
                 color: #001958;
             }
         }
-        .footer{
-            position: absolute;
-width: 100%;
-height: 252px;
-left: 0px;
-top: 772px;
 
 
-background: #FFFFFF;
-        }
-        .footer-information{
-   
+}
 
-            position: absolute;
-            width: 70%;
-            height: 39px;
-            left:  600px;
-            
-            
-            font-family: Poppins;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 40px;
-            line-height: 120px;
-            /* identical to box height */
-            
-            
-            color: #001958;
-                
 
-        }
-        .footer-details{
-
-            
-            width: 98px;
-            height: 30px;
-            left: 240px;
-            
-            display: flex;
-                flex-flow: column wrap;
-                
-            font-family: Poppins;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 20px;
-            line-height: 30px;
-            /* identical to box height */
-            
-            text-align: center;
-            
-            color: #4F4F4F;
 
         }
         .hero-block-information {
+            align-items: flex-start;
             display: flex;
             margin: 122px;
             img {
@@ -112,7 +67,158 @@ background: #FFFFFF;
                     
                     
                 }
+                .limited{
+                    margin: 20px;
+                    font-family: Poppins;
+                    color: #FFFFFF;
+                }
             }
         }
+        .conference-details{
+            .footer{
+                width: 100%;
+                height: 25vh;
+    background: #FFFFFF;
+            }
+            .footer-information{
+                display: flex;
+                position: absolute;
+                width: 70%;
+                height: 39px;
+                left:  600px;
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 40px;
+                line-height: 120px;
+                /* identical to box height */
+                color: #001958;
+            }
+            .footer-details{
+                display: flex;
+                flex-flow: row wrap;
+                .countries{
+                    position: absolute;
+    width: 98px;
+    height: 30px;
+    left: -155px;
+    top: 119px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    text-align: center;
+    color: #4F4F4F;
+                }
+    .cities{
+        position: absolute;
+        width: 57px;
+        height: 30px;
+        left: 120px;
+        top: 119px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+    /* identical to box height */
+    text-align: center;
+    color: #4F4F4F;
     }
-}
+    .speakers{
+        position: absolute;
+        width: 57px;
+        height: 30px;
+        left: 395px;
+        top: 119px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+    /* identical to box height */
+    text-align: center;
+    color: #4F4F4F;
+    }
+    .attendees{
+        position: absolute;
+        width: 57px;
+        height: 30px;
+        left: 670px;
+        top: 119px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+    /* identical to box height */
+    text-align: center;
+    color: #4F4F4F;
+        }
+        .m12{
+            position: absolute;
+           
+            width: 98px;
+            height: 30px;
+            left: -155px;
+            top: 145px;
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 50px;
+            line-height: 75px;
+            /* identical to box height */
+            text-align: center;
+            color: #4F4F4F;
+        }
+        .m30{
+            position: absolute;
+           
+            width: 98px;
+            height: 30px;
+            left: 100px;
+            top: 145px;
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 50px;
+            line-height: 75px;
+            /* identical to box height */
+            text-align: center;
+            color: #4F4F4F;
+        }
+        .m120{
+            position: absolute;
+            width: 98px;
+            height: 30px;
+            left: 395px;
+            top: 145px;
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 50px;
+            line-height: 75px;
+            /* identical to box height */
+            text-align: center;
+            color: #4F4F4F;
+        }
+        .m750{
+            position: absolute;
+           
+            width: 98px;
+            height: 30px;
+            left: 670px;
+            top: 145px;
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 50px;
+            line-height: 75px;
+            /* identical to box height */
+            text-align: center;
+            color: #4F4F4F; 
+        }
+    }
+ }
